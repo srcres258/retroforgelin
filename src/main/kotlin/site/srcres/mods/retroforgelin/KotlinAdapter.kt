@@ -17,7 +17,7 @@ class KotlinAdapter : ILanguageAdapter {
         classLoader: ClassLoader,
         factoryMarkedAnnotation: Method?
     ) = run {
-        logger.debug("Constructing instance for class: {}", objectClass.simpleName)
+        logger.debug("Constructing instance for mod class: {}", objectClass.simpleName)
         objectClass.kotlin.objectInstance ?: objectClass.newInstance()
     }
 
