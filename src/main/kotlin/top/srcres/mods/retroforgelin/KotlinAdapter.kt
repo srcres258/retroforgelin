@@ -1,4 +1,4 @@
-package site.srcres.mods.retroforgelin
+package top.srcres.mods.retroforgelin
 
 import cpw.mods.fml.common.FMLModContainer
 import cpw.mods.fml.common.ILanguageAdapter

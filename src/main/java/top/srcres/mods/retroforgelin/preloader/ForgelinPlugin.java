@@ -1,4 +1,4 @@
-package site.srcres.mods.retroforgelin.preloader;
+package top.srcres.mods.retroforgelin.preloader;
 
 import java.util.Map;
 
@@ -18,7 +18,7 @@ public class ForgelinPlugin implements IFMLLoadingPlugin {
 
     @Override
     public String getSetupClass() {
-        return "site.srcres.mods.retroforgelin.preloader.ForgelinSetup";
+        return "top.srcres.mods.retroforgelin.preloader.ForgelinSetup";
     }
 
     @Override
